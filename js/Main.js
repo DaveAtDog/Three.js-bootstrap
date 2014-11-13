@@ -61,9 +61,7 @@ Dog.Main = (function()
 		renderer.render(scene, camera);
 
 	}
-
-
-
+	
 	return {
 		init: function()
 		{
@@ -72,8 +70,3 @@ Dog.Main = (function()
 		}
 	};
 })();
-
-document.addEventListener('DOMContentLoaded', function()
-{
-	Dog.Main.init();
-});
