@@ -4,6 +4,8 @@ if (Dog.WebGLDetect.canProceed)
 	LazyLoad.js(
 		[
 			"//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js",
+			"./js/vendor/OrbitControls.js",
+			"./js/Utils.js",
 			"./js/Main.js"
 		],
 		function()
