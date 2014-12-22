@@ -68,9 +68,7 @@ Dog.Main = (function()
 		var mesh = new THREE.Mesh(geometry, material);
 
 		// give it some random rotation
-		mesh.rotation.x = Dog.Utils.degToRad(Dog.Utils.randomRange(0, 60));
-		mesh.rotation.y = Dog.Utils.degToRad(Dog.Utils.randomRange(0, 60));
-		mesh.rotation.z = Dog.Utils.degToRad(Dog.Utils.randomRange(0, 60));
+		mesh.rotation.y = Dog.Utils.degToRad(Dog.Utils.randomRange(45, 135));
 
 		scene.add(mesh);
 	}
